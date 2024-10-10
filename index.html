@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylest1.css">
+    <script src="js/animacion.js" defer></script>
+    <title>El señor de los anillos</title>
+</head>
+<body>
+    <header class="header">
+        <span class="header__icon" id="menuIcon" role="button" aria-label="Abrir menu">
+          <img src="img/menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Icono de menú " class="header__image">
+        </span>
+        <section id="navSection" class="header__nav-container hidden" aria-hidden="true" aria-label="Menú navegación">
+          <nav class="header__nav">
+            <a class="header__link" href="galeria/index.html">Galería</a>
+            <a class="header__link" href="tienda/index.html">Tienda online</a>
+            <a class="header__link" href="CV_Rogelio/index.html">Perfil CV</a>
+            <div class="header__icon" id="closeIcon" role="button" aria-label="Cerrar menú"> 
+            <img class="header__image1" src="img/close_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Icono cerrar">
+            </div>
+          </nav>
+        </section>
+        <img src="img/logo_lord_rings-removebg-preview.png" alt="Logo de el señor de los anillos" class="header__logo">
+      </header>
+
+      <main class="main-content">
+        <section class="main-content__section main-content__section--intro" aria-labelledby="Intro-title">
+            <h1 class="main-content__title" id="Intro-title">El señor de los anillos</h1>
+            <hr class="main-content__divider" aria-hidden="true">
+            <p class="main-content__text" aria-label="Descripción de la saga del Señor de los anillos">
+                J.R.R. Tolkien nos transportó a la Tierra Media, un mundo lleno de magia, criaturas fantásticas y razas ancestrales. Sus dos obras más famosas, El Hobbit y la trilogía de El Señor de los Anillos, nos sumergen en aventuras inolvidables que han cautivado a lectores de todas las edades.
+            </p>
+            <section class="main-content__section main-content__section--videos" >
+                <h2 class="videos__title" id="videos-title">Escena épica de la pelicula</h2>
+                <article class="videos__container">
+                    <video class="videos__video" controls width="400" muted autoplay aria-label="Video de pelea epica">
+                        <source src="assest/Lord_rings.mp4" type="video/mp4">
+                    </video>
+                </article>
+            </section>
+        </section>
+        <hr class="main-content__divider" aria-hidden="true">
+        
+        <section class="main-content__section main-content__section--fighting" aria-labelledby="fighters-title">
+            <article class="fighting">
+                <h2 class="fighting__title" id="fighters-title">Universo del Hobbit y El señor de los anillos</h2>
+                <p class="fighting__intro" aria-label="Descripción de los libros">
+                    El universo creado por J.R.R. Tolkien se divide en dos grandes obras: El Hobbit y la trilogía de El Señor de los Anillos. El Hobbit, una aventura individual, nos introduce a un mundo fantástico donde conocemos a Bilbo Bolsón, un hobbit que vivirá una experiencia que cambiará su vida y la de la Tierra Media. Esta novela sienta las bases para la trilogía posterior, presentando a algunos personajes que luego tendrán un papel crucial. El Señor de los Anillos, compuesto por tres libros —La Comunidad del Anillo, Las Dos Torres y El Retorno del Rey—, profundiza en este universo, expandiendo la historia y explorando las consecuencias del Anillo Único y la lucha entre el bien y el mal.
+                 </p>
+            </article>
+            <article class="fighting__details">
+                <div class="fighting__container" aria-label="Detalles de los libros">
+                    <div class="fighting__element fighting__element--air">
+                        <h3 class="fighting__subtitle" >El Hobbit</h3> 
+                        <p class="fighting__description" aria-label="Descripción del libro del Hobbit">
+                            El Hobbit es una aventura épica que sigue a Bilbo Bolsón, un hobbit tranquilo y amante de la comodidad, que se ve arrastrado a un viaje inesperado junto a un grupo de enanos liderados por Thorin Escudo de Roble. Su misión es recuperar el reino enano de Erebor, que ha sido usurpado por el dragón Smaug.
+
+                            Durante su travesía, Bilbo se enfrentará a peligros inimaginables, desde gigantescos troles hasta siniestros goblins. Además, encontrará un anillo de oro en una cueva, un objeto que cambiará el curso de su vida y el destino de la Tierra Media.  
+                        </p>
+                        <img class="fighting__image" src="img/l_2.png" alt="Libro El Hobbit">
+                    </div>
+                    <div class="fighting__element fighting__element--water">
+                        <h3 class="fighting__subtitle">La Comunidad del Anillo</h3>
+                        <p class="fighting__description" aria-label="Descripción del libro de la comunidad del anillo">
+                            La Comunidad del Anillo es el primer libro de la trilogía "El Señor de los Anillos" y marca el inicio de una épica aventura. La historia se centra en Frodo Bolsón, un hobbit que hereda un anillo muy especial: el Anillo Único. Este objeto es la fuente de todo el poder del oscuro señor Sauron, quien busca recuperarlo para dominar el mundo.
+                            Acompañado por sus fieles amigos Sam, Merry y Pippin, Frodo emprende un peligroso viaje. En el camino, se unen a la Comunidad del Anillo, un grupo de compañeros que incluye a un elfo, un enano, un hombre y un hobbit más. 
+                        </p>
+                        <img class="fighting__image" src="img/l_3.png" alt="La comunidad del anillo">
+                    </div>
+                    <div class="fighting__element fighting__element--earth">
+                        <h3 class="fighting__subtitle">Las Dos Torres</h3>
+                        <p class="fighting__description" aria-label="Descripción del libro las dos Torres">
+                            Después de que la Comunidad del Anillo se disolviera en las Minas de Moria, Frodo y Sam continúan su viaje hacia Mordor, acompañados por el fiel Sam. Mientras tanto, Merry y Pippin son capturados por orcos y llevados a Isengard, la fortaleza de Saruman el Blanco.
+
+                            Aragorn, Legolas y Gimli emprenden una búsqueda desesperada para rescatar a sus amigos. En su camino, se encuentran con el pueblo de Rohan y su rey, Théoden, quien está bajo el control del malvado brujo Saruman. Juntos, lideran una carga contra Isengard, liberando a Rohan de la opresión de Saruman.
+                            
+                            Mientras tanto, Frodo y Sam enfrentan nuevos peligros en su camino hacia Mordor. 
+                        </p>
+                        <img class="fighting__image" src="img/l_4.png" alt="Las dos torres">
+                    </div>
+                    <div class="fighting__element fighting__element--fire">
+                        <h3 class="fighting__subtitle">El Retorno del Rey</h3>
+                        <p class="fighting__description" aria-label="Descripción del retorno del rey">
+                            Frodo y Sam, tras superar innumerables peligros, finalmente llegan al Monte del Destino. Sin embargo, el poder del Anillo Único resulta ser demasiado tentador incluso para Frodo, y Gollum aprovecha esta debilidad para intentar recuperarlo. En una lucha desesperada, Gollum logra morderle el dedo a Frodo y se lleva el Anillo, pero en su júbilo cae al abismo, llevándose consigo el Anillo Único y destruyéndolo en las llamas del Monte del Destino.
+
+                            Mientras tanto, el mundo exterior se prepara para la batalla final contra Sauron. Los ejércitos de Gondor y Rohan se unen para enfrentar las hordas de Mordor en las puertas de Minas Tirith. Aragorn es revelado como el verdadero rey.
+                        </p>
+                        <img class="fighting__image" src="img/l_5.png" alt="El retorno del rey">
+                    </div>
+                </div>
+            </article>
+        </section>
+         
+        <hr class="main-content__divider">
+    
+
+        <form class="form" aria-labelledby="form-title">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend" id="form-title">Suscríbete a nuestra revista</legend>
+                <div class="form__group">
+                    <label class="form__label" for="name">Nombre</label>
+                    <input class="form__input" type="text" id="name" name="name" required placeholder="Nombre" aria-required="true">
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="surname">Apellidos</label>
+                    <input class="form__input" type="text" id="surname" name="surname" required placeholder="Apellidos" aria-required="true">
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="email">Email</label>
+                    <input class="form__input" type="email" id="email" name="email" required placeholder="Email" aria-required="true">
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="numero">Número</label>
+                    <input class="form__input" type="text" id="numero" name="numero" required placeholder="Número" aria-required="true">
+                </div>
+            </fieldset>
+        
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Escoge el libro que te gustaría leer</legend>
+                <div class="form__group">
+                    <label class="form__label" for="saga">Libros</label>
+                    <select class="form__select" id="saga" aria-required="true">
+                        <option value="">-- Seleccionar --</option>
+                        <option value="El Hobbit">EL Hobbit</option>
+                        <option value="La Comunidad del Anillo">La Comunidad del Anillo</option>
+                        <option value="las dos torres">Las Dos Torres</option>
+                        <option value="el retorno del rey">El Retorno del Rey</option>
+                    </select>
+                </div>
+                <div class="form__group">
+                    <label class="form__label" for="comments">Comentarios</label>
+                    <textarea class="form__textarea" id="comments" aria-label="Comentarios"></textarea>
+                </div>
+                <div class="form__group" role="group" aria-labelledby="question-title">
+                    <p class="form__question" id="question-title">¿Dónde escuchaste de nosotros?</p>
+                    <label class="form__radio-label" for="option-1">Indeed</label>
+                    <input class="form__radio" id="option-1" type="radio" name="option" value="option-1">
+                    <label class="form__radio-label" for="option-2">Facebook</label>
+                    <input class="form__radio" id="option-2" type="radio" name="option" value="option-2">
+                    <label class="form__radio-label" for="option-3">LinkedIn</label>
+                    <input class="form__radio" id="option-3" type="radio" name="option" value="option-3">
+                    <label class="form__radio-label" for="option-4">Otro</label>
+                    <input class="form__radio" id="option-4" type="radio" name="option" value="option-4">
+                </div>
+            </fieldset>
+        
+            <input class="form__submit" type="submit" value="Enviar">
+        </form>
+            
+        <footer class="footer" role="contentinfo" aria-label="Información de sitio">
+            <div class="footer__logo">
+                <img class="footer__logo-image" src="img/logo_lord_rings-removebg-preview.png" alt="El señor de los anillos" width="100px" aria-hidden="true">
+            </div>
+            <nav class="footer__nav" aria-label="Enlaces principales">
+                <a class="footer__link" href="#">Inicio-El Señor de los Anillos</a>
+                <a class="footer__link" href="galeria/index.html">Galería</a>
+                <a class="footer__link" href="tienda/index.html">Tienda online</a>
+            </nav>
+            <nav class="footer__nav" aria-label="Redes sociales">
+                <a class="footer__link" href="https://www.youtube.com/watch?v=ggGINmj5EQE">Youtube</a>
+            </nav>
+        </footer>
+        
+</body>
+</html>

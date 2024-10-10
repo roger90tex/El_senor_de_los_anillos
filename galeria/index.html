@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylest.css">
+    <script src="js/animacion.js" defer></script>
+    <title>Galeria</title>
+</head>
+<body>
+    <header class="gallery-header">
+        <header class="header">
+            <span class="header__icon" id="menuIcon" role="button" aria-label="Abrir menu">
+              <img src="img/menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Icono de menú " class="header__image">
+            </span>
+            <section id="navSection" class="header__nav-container hidden" aria-hidden="true" aria-label="Menú navegación">
+              <nav class="header__nav">
+                <a class="header__link" href="../index.html">Inicio-El señor de los anillos</a>
+                <a class="header__link" href="../tienda/index.html">Tienda online</a>
+                <a class="header__link" href="../CV_Rogelio/index.html">Perfil CV</a>
+                <div class="header__icon" id="closeIcon" role="button" aria-label="Cerrar menú"> 
+                  <img class="header__image1" src="img/close_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Icono cerrar">
+                </div>
+              </nav>
+            </section>
+            <img src="img/logo_lord_rings-removebg-preview.png" alt="Logo de el señor de los anillos" class="header__logo">
+          </header>
+       
+      </header>
+      
+    
+      <main class="gallery">
+        <h1 class="gallery-header__title">Galería de Escenas Épicas</h1>
+        <p class="gallery-header__subtitle">Revive los momentos más memorables de la Tierra Media</p>
+        <section class="gallery__grid">
+          <article class="gallery__item gallery__item--large">
+            <img src="img/1.png" alt="Batalla en Helm's Deep" class="gallery__image">
+            <h2 class="gallery__caption">Batalla en Helm's Deep</h2>
+          </article>
+    
+          <article class="gallery__item">
+            <img src="img/2.png" alt="Frodo y el Anillo" class="gallery__image">
+            <h2 class="gallery__caption">Frodo y el Anillo</h2>
+          </article>
+    
+          <article class="gallery__item">
+            <img src="img/3.png" alt="Gandalf en Moria" class="gallery__image">
+            <h2 class="gallery__caption">Gandalf en Moria</h2>
+          </article>
+    
+          <article class="gallery__item">
+            <img src="img/4.png" alt="El Rey Aragorn" class="gallery__image">
+            <h2 class="gallery__caption">El Rey Aragorn</h2>
+          </article>
+    
+          <article class="gallery__item">
+            <img src="img/5.png" alt="Legolas en la Batalla de los Campos de Pelennor" class="gallery__image">
+            <h2 class="gallery__caption">Legolas en la Batalla de los Campos de Pelennor</h2>
+          </article>
+    
+          <article class="gallery__item gallery__item--large">
+            <img src="img/6.png" alt="El Desafío del Ojo de Sauron" class="gallery__image">
+            <h2 class="gallery__caption">El Desafío del Ojo de Sauron</h2>
+          </article>
+        </section>
+      </main>
+
+      <div id="modal" class="modal">
+        <span class="modal__close">&times;</span>
+        <img alt="imagenes grandes" class="modal__content" id="modalImage">
+        <div id="modalCaption" class="modal__caption"></div>
+      </div>
+    
+      <footer class="footer" role="contentinfo" aria-label="Información de sitio">
+        <div class="footer__logo">
+            <img class="footer__logo-image" src="img/logo_lord_rings-removebg-preview.png" alt="El señor de los anillos" width="100px" aria-hidden="true">
+        </div>
+        <nav class="footer__nav" aria-label="Enlaces principales">
+            <a class="footer__link" href="../index.html">Inicio-El Señor de los Anillos</a>
+            <a class="footer__link" href="#">Galería</a>
+            <a class="footer__link" href="../tienda/index.html">Tienda online</a>
+        </nav>
+        <nav class="footer__nav" aria-label="Redes sociales">
+            <a class="footer__link" href="https://www.youtube.com/watch?v=ggGINmj5EQE">Youtube</a>
+        </nav>
+    </footer>
+</body>
+</html>
